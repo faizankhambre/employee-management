@@ -1,0 +1,74 @@
+/* assets/css/style.css */
+
+/* Global */
+body {
+    background: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Sticky footer */
+footer {
+    margin-top: auto;
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Forms in cards */
+.card-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Table */
+.table-container {
+    overflow-x: auto;
+}
+
+.table thead {
+    background: linear-gradient(90deg, #0d6efd, #66b2ff);
+    color: white;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+.btn {
+    min-width: 100px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .card-form {
+        padding: 20px;
+    }
+
+    .table td,
+    .table th {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.85rem;
+    }
+}
