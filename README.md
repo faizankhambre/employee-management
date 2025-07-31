@@ -6,6 +6,14 @@
 
 A simple and responsive Employee Management System built using **Core PHP**, **MySQL**, and **Bootstrap 5**.
 
+## 🚀 How to run project locally
+
+- ✅ After cloning the repo from Git.
+- ✅ Put the app/project under htdocs folder where your XAMMP Server is installed.
+- ✅ Turn ON your Apache & MySQL then configure db.php in config folder of the project.
+- ✅ Run the SQL script employees.sql it will create the required database and table with sample records.
+- ✅ Test the App at http://localhost/employee-management/index.php
+
 ## 🚀 Features
 
 - 🧾 View / Add / Edit / Delete Employees
